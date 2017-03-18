@@ -1,0 +1,66 @@
+<resources>
+    <string name="app_name">Stock Hawk</string>
+
+    <string name="pref_stocks_initialized_key" translatable="false">initialized</string>
+
+    <string name="pref_stocks_key">stocks</string>
+    <string name="pref_stocks_status_key">stocks-status</string>
+
+    <string name="chart_no_data">No data</string>
+
+    <string name="intent_symbol_key" translatable="false">symbol</string>
+
+    <string name="pref_display_mode_title">Display Mode</string>
+    <string name="pref_display_mode_key">displayMode</string>
+    <string name="pref_display_mode_default">@string/pref_display_mode_percentage_key</string>
+
+    <string name="pref_display_mode_absolute_key">absolute</string>
+    <string name="pref_display_mode_percentage_key">percentage</string>
+
+    <string name="pref_chart_interval_key">chart interval</string>
+    <!--<string name="pref_chart_interval_Month">month</string>-->
+    <!--<string name="pref_chart_interval_Week">week</string>-->
+    <!--<string name="pref_chart_interval_year">year</string>-->
+    <string name="pref_chart_interval_default">@string/interval_year</string>
+
+
+    <string name="default_stocks_yahoo">YHOO</string>
+    <string name="default_stocks_apple">AAPL</string>
+    <string name="default_stocks_microsoft">MSFT</string>
+    <string name="default_stocks_facebook">FB</string>
+
+    <string name="interval_week" translatable="true">WEEK</string>
+    <string name="interval_year" translatable="true">YEAR</string>
+    <string name="interval_month" translatable="true">MONTH</string>
+
+    <string name="action_change_units">@string/pref_display_mode_key</string>
+
+
+    <string name="dialog_title" translatable="true">Add Stock</string>
+    <string name="dialog_hint">Symbol (e.g. GOOG)</string>
+    <string name="dialog_cancel" translatable="true">Cancel</string>
+    <string name="dialog_add" translatable="true">Add</string>
+
+    <string name="error_stock_not_found" translatable="true">Symbol %s is invalid!</string>
+    <string name="error_no_network" translatable="true">No network connectivity! Will load stock cursor when the network is available.</string>
+    <string name="error_no_stocks" translatable="true">No stocks added! Hit the floating action button to add one.</string>
+
+    <string name="toast_stock_added_no_connectivity">Symbol %s added. Will refresh when network available.</string>
+    <string name="toast_no_connectivity">Will refresh when network available.</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_detail">Details</string>
+    <string name="appwidget_text">EXAMPLE</string>
+    <string name="configure">Configure</string>
+    <string name="add_widget">Add widget</string>
+
+
+    <!--Content Description-->
+    <string name="CD_add_stock_button" translatable="true">add new stock</string>
+    <string name="CD_stock_chart" translatable="true">line chart showing stock history</string>
+    <string name="CD_display_mode" translatable="true">Display Mode ,%s </string>
+
+    <!--detailview strings-->
+    <string name="price" translatable="true">Price: $%s</string>
+    <string name="absolute_change" translatable="true">Absolute change: %s</string>
+    <string name="percentage_change" translatable="true">Percentage Change:</string>
+</resources>

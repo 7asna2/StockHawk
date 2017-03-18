@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="default_stocks">
+        <item>@string/default_stocks_apple</item>
+        <item>@string/default_stocks_yahoo</item>
+        <item>@string/default_stocks_microsoft</item>
+        <item>@string/default_stocks_facebook</item>
+    </string-array>
+    <string-array name="chart_intervals">
+        <item>@string/interval_year</item>
+        <item>@string/interval_month</item>
+        <!--<item>@string/interval_week</item>-->
+    </string-array>
+</resources>
