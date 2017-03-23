@@ -11,17 +11,14 @@
     <string name="intent_symbol_key" translatable="false">symbol</string>
 
     <string name="pref_display_mode_title">Display Mode</string>
-    <string name="pref_display_mode_key">displayMode</string>
-    <string name="pref_display_mode_default">@string/pref_display_mode_percentage_key</string>
+    <string name="pref_display_mode_key" translatable="false">displayMode</string>
+    <string name="pref_display_mode_default" translatable="false">@string/pref_display_mode_percentage_key</string>
 
-    <string name="pref_display_mode_absolute_key">absolute</string>
-    <string name="pref_display_mode_percentage_key">percentage</string>
+    <string name="pref_display_mode_absolute_key" translatable="false">absolute</string>
+    <string name="pref_display_mode_percentage_key" translatable="false">percentage</string>
 
-    <string name="pref_chart_interval_key">chart interval</string>
-    <!--<string name="pref_chart_interval_Month">month</string>-->
-    <!--<string name="pref_chart_interval_Week">week</string>-->
-    <!--<string name="pref_chart_interval_year">year</string>-->
-    <string name="pref_chart_interval_default">@string/interval_year</string>
+    <string name="pref_chart_interval_key" translatable="false">chart interval</string>
+    <string name="pref_chart_interval_default" translatable="false">@string/interval_year</string>
 
 
     <string name="default_stocks_yahoo">YHOO</string>
@@ -59,7 +56,7 @@
     <string name="CD_stock_chart" translatable="true">line chart showing stock history</string>
     <string name="CD_display_mode" translatable="true">Display Mode ,%s </string>
 
-    <!--detailview strings-->
+    <!--detailView strings-->
     <string name="price" translatable="true">Price: $%s</string>
     <string name="absolute_change" translatable="true">Absolute change: %s</string>
     <string name="percentage_change" translatable="true">Percentage Change:</string>
